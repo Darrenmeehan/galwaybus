@@ -38,7 +38,7 @@
 			
 			function timesForStopRef(stopRef, infowindow, map, marker) {
 				
-				$.getJSON('http://galwaybus.herokuapp.com/stops/' + stopRef +'.json', function (data) {
+				$.getJSON('http://localhost:8000/stops/' + stopRef +'.json', function (data) {
 					
 					var html = "<table><tr><td>Route</td><td>Destination</td><td>Time</td></tr>";
 					
